@@ -112,6 +112,26 @@ export default function App() {
         <div className="flex mg1-auto wrappable aligned-center max-width justified-center gap2">
 
           <h2 className="subtitle">
+            Amamentação saudável
+          </h2>
+
+
+          <div className="flex wrappable justified-center aligned-center  gap1 depos">
+            <p className='flex1'>Mamãe, a jornada da maternidade é repleta de amor e cuidados, e a <b>nutrição</b> do seu bebê desempenha um papel fundamental nesse caminho especial. A <b>amamentação</b> é um momento mágico de conexão, e complementá-la com uma <b>alimentação saudável</b> é o segredo para um começo de vida vibrante e cheio de energia.</p>
+
+            <img src={mockup3} alt="" className="flex1" />
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div className='max-width mg1-auto pd2'>
+        <div className="flex mg1-auto wrappable aligned-center max-width justified-center gap2">
+
+          <h2 className="subtitle">
             Veja alguns depoimentos de mamães como você:
           </h2>
 
