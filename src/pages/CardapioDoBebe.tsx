@@ -135,13 +135,27 @@ export default function App() {
                         Veja alguns depoimentos de mamães como você:
                     </h2>
 
-                    <div className="flex wrappable justified-center  gap1 depos">
-                        <Image className='depo' src={depo1} alt="" />
-                        <Image className='depo' src={depo2} alt="" />
-                        <Image className='depo' src={depo3} alt="" />
-                        <Image className='depo' src={depo4} alt="" />
-                        <Image className='depo' src={depo5} alt="" />
-                        <Image className='depo' src={depo6} alt="" />
+                    <div className="flex wrappable  justified-center  gap1 depos">
+                        <Image
+                            preview={{
+                                imageRender: (original) => <div style={{ maxWidth: 500 }} > {original} </div>,
+                            }}
+                            className='depo' src={depo1} alt="" />
+                        <Image preview={{
+                            imageRender: (original) => <div style={{ maxWidth: 500 }} > {original} </div>,
+                        }} className='depo' src={depo2} alt="" />
+                        <Image preview={{
+                            imageRender: (original) => <div style={{ maxWidth: 500 }} > {original} </div>,
+                        }} className='depo' src={depo3} alt="" />
+                        <Image preview={{
+                            imageRender: (original) => <div style={{ maxWidth: 500 }} > {original} </div>,
+                        }} className='depo' src={depo4} alt="" />
+                        <Image preview={{
+                            imageRender: (original) => <div style={{ maxWidth: 500 }} > {original} </div>,
+                        }} className='depo' src={depo5} alt="" />
+                        <Image preview={{
+                            imageRender: (original) => <div style={{ maxWidth: 500 }} > {original} </div>,
+                        }} className='depo' src={depo6} alt="" />
                     </div>
 
 
