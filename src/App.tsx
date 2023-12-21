@@ -33,7 +33,7 @@ export default function App() {
           <div className="flex wrappable aligned-center max-width justified-center">
             <div className='flex1'>
               <h1 className='title'>Olá Mamãe!</h1>
-              <p className=''>Descubra como fazer o seu bebê comer bem, variando o cardápio <b>e em menos de 1 semana</b> com mais de 100 receitas práticas e saudáveis. <br />
+              <p className=''>Descubra como fazer o seu bebê comer bem <b> em menos de 1 semana</b>, variando o cardápio com mais de 100 receitas práticas e saudáveis. <br />
               </p>
               <p>Você pode começar hoje mesmo a alimentar de forma saudável seu bebê com receitas práticas.</p>
 
@@ -65,11 +65,11 @@ export default function App() {
         <h2 className='mg1-auto subtitle'>Mamãe, você passa por algumas dessas dificuldades?</h2>
 
         <ul className='pd2 issues'>
-          <li className='mg1-auto flex gap1'><WarningFilled /> Não consigo variar o cardápio do meu bebê, faço todos os dias a mesma refeição?</li>
-          <li className='mg1-auto flex gap1'><WarningFilled /> Eu preciso de informações atualizadas sobre introdução alimentar?</li>
-          <li className='mg1-auto flex gap1'><WarningFilled /> Eu já tentei de tudo e meu bebê não aceita a comidinha?</li>
-          <li className='mg1-auto flex gap1'><WarningFilled /> Estou muito perdida na introdução alimentar do meu bebê? </li>
-          <li className='mg1-auto flex gap1'><WarningFilled /> Não sei quais alimentos corretos para cada fase do meu bebê e nem quais temperos posso utilizar?</li>
+          <li className='mg1-auto flex gap1'><WarningFilled /> Não consigo variar o cardápio do meu bebê, faço todos os dias a mesma refeição.</li>
+          <li className='mg1-auto flex gap1'><WarningFilled /> Eu preciso de informações atualizadas sobre introdução alimentar.</li>
+          <li className='mg1-auto flex gap1'><WarningFilled /> Eu já tentei de tudo e meu bebê não aceita a comidinha.</li>
+          <li className='mg1-auto flex gap1'><WarningFilled /> Estou muito perdida na introdução alimentar do meu bebê. </li>
+          <li className='mg1-auto flex gap1'><WarningFilled /> Não sei quais alimentos corretos para cada fase do meu bebê e nem quais temperos posso utilizar.</li>
         </ul>
 
 
@@ -92,7 +92,7 @@ export default function App() {
                 <li className='mg1-auto flex gap1'><CheckCircleFilled /> Uma variedade de receitas para o café da manhã.</li>
                 <li className='mg1-auto flex gap1'><CheckCircleFilled /> Uma variedade de receitas para o lanche da tarde.</li>
                 <li className='mg1-auto flex gap1'><CheckCircleFilled /> Uma variedade de receitas para o almoço e janta.</li>
-                <li className='mg1-auto flex gap1'><CheckCircleFilled /> Uma variedade de receitas para de sobremesas.</li>
+                <li className='mg1-auto flex gap1'><CheckCircleFilled /> Uma variedade de receitas para sobremesas.</li>
                 <li className='mg1-auto flex gap1'><CheckCircleFilled /> Mais de 100 receitas especiais.</li>
                 <li className='mg1-auto flex gap1'><CheckCircleFilled /> Tabela com horário de alimentação. </li>
                 <li className='mg1-auto flex gap1'><CheckCircleFilled /> Método Blw </li>
@@ -172,8 +172,8 @@ export default function App() {
         <p className='mg1-auto'>Assim que houver confirmação do pagamento, você receberá no seu E-mail dados para acessar as Apostilas. Você poderá baixá-los e ler do seu Celular, Tablet, ou Computador.</p>
         <h3 className='subtitle'>2. Quais são as formas de pagamento?</h3>
         <p className='mg1-auto'>O pagamento pode ser feito via cartão de crédito ou Pix</p>
-        <p className='mg1-auto'>No cartão, o valor pode ser parcelado em até 3x.</p>
-        <p className='mg1-auto'>A confirmação de pagamento tanto no cartão quanto no boleto acontece em poucos instantes.</p>
+        <p className='mg1-auto'>No cartão, o valor pode ser parcelado em até 12x.</p>
+        <p className='mg1-auto'>A confirmação de pagamento tanto no cartão quanto no pix acontece em poucos instantes.</p>
         <h3 className='subtitle'>3. Como funciona a garantia?</h3>
         <p className='mg1-auto'>A sua garantia é assegurada pelo Código de Defesa do Consumidor. E fazemos questão de deixar claro que, caso não fique satisfeita, basta nos enviar mensagem no E-mail: <b>suportecardapiodobebe@gmail.com</b> dentro do prazo de 7 dias, que devolveremos 100% do seu dinheiro.</p>
       </div>
@@ -197,12 +197,6 @@ export default function App() {
         <p className="text-centered small-text">Desenvolvido por <a className='subtitle' style={{ textDecoration: 'none' }} href="https://marcelotvieira.github.io" target="_blank" rel="noreferrer">Marcelo Vieira</a></p>
 
       </footer>
-
-
-
-
-
-
     </div>
 
   );
