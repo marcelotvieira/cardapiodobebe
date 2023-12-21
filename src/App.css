@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.mg1-auto {
+  margin: 1rem auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mg2-auto {
+  margin: 2rem auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+footer {
+  background: linear-gradient(transparent, rgb(var(--primary-rgb)));
+  min-height: 160px;
+  margin-top: 4rem;
+}
+
+.mockup-top {
+  animation: mockanimation 5s linear infinite;
+  transform: rotateX(0deg) rotateY(0deg);
+  filter: drop-shadow(1rem 1rem 0.5rem rgba(0, 0, 0, 0.2));
+}
+
+.depos .depo {
+  max-width: 80%;
+  border-radius: 1rem;
+  margin: auto;
+  transition: 0.2s;
+  max-width: 240px;
+  max-height: 420px;
+}
+.depos .depo:hover {
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+@keyframes mockanimation {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: rotateX(-2deg) rotateY(4deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.perspective {
+  perspective: 120px;
+}/*# sourceMappingURL=App.css.map */

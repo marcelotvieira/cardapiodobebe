@@ -1,0 +1,57 @@
+.mg1-auto {
+    margin: 1rem auto;
+}
+
+.mg2-auto {
+    margin: 2rem auto;
+}
+
+footer {
+    background: linear-gradient(transparent, rgb(var(--primary-rgb)));
+    min-height: 160px;
+    margin-top: 4rem;
+}
+
+
+.mockup-top {
+    animation: mockanimation 5s linear infinite;
+    transform: rotateX(0deg) rotateY(0deg);
+    filter: drop-shadow(1rem 1rem .5rem rgba(0, 0, 0, 0.2));
+
+}
+
+.depos {
+    .depo {
+        max-width: 80%;
+        border-radius: 1rem;
+        margin: auto;
+        transition: .2s;
+        max-width: 240px;
+        max-height: 420px;
+
+        &:hover {
+            box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, 0.15);
+        }
+    }
+
+
+}
+
+@keyframes mockanimation {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateX(-2deg) rotateY(4deg);
+
+    }
+
+    100% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+}
+
+.perspective {
+    perspective: 120px;
+}
