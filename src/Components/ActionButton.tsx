@@ -11,7 +11,7 @@ export function ActionButton(props: Props) {
         <Button
             type="link"
             className='action-button'
-            target="_blank" href="https://pay.hotmart.com/U84923107Q?off=p0l0vp8p&checkoutMode=10&ref=T89255880M&bid=1703089375121&hideBillet=1"
+            target="_blank" href="https://go.hotmart.com/T89255880M?ap=6076&hideBillet=1"
         >
             {props.title}
         </Button>
