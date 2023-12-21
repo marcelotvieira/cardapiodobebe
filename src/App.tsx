@@ -11,6 +11,7 @@ export default function App() {
 
         <Routes>
           <Route path="/cardapiodobebe" element={<CardapioDobebe />} />
+          <Route path="/" element={<CardapioDobebe />} />
         </Routes>
       </BrowserRouter>
 
