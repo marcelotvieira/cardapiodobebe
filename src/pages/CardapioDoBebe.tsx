@@ -16,7 +16,7 @@ import { Carousel, Image } from 'antd';
 import { ActionButton } from '../Components/ActionButton';
 import { CheckCircleFilled, WarningFilled } from '@ant-design/icons';
 
-export default function CardapioDobebe() {
+export default function App() {
     return (
         <div className="page">
 
@@ -29,7 +29,7 @@ export default function CardapioDobebe() {
                     autoplay
                     draggable
                 >
-                    <div className="flex wrCardapioDobebeable aligned-center max-width justified-center">
+                    <div className="flex wrappable aligned-center max-width justified-center">
                         <div className='flex1'>
                             <h1 className='title'>Olá Mamãe!</h1>
                             <p className=''>Descubra como fazer o seu bebê comer bem <b> em menos de 1 semana</b>, variando o cardápio com mais de 100 receitas práticas e saudáveis. <br />
@@ -77,7 +77,7 @@ export default function CardapioDobebe() {
             </div>
 
             <div className='max-width mg1-auto'>
-                <div className="flex mg1-auto wrCardapioDobebeable aligned-center max-width justified-center gap2">
+                <div className="flex mg1-auto wrappable aligned-center max-width justified-center gap2">
 
 
                     <div className='flex1'>
@@ -108,14 +108,15 @@ export default function CardapioDobebe() {
             <ActionButton title="Começar hoje mesmo!" />
 
             <div className='max-width mg1-auto pd2'>
-                <div className="flex mg1-auto wrCardapioDobebeable aligned-center max-width justified-center gap2">
+                <h2 className="subtitle mg1-auto text-centered">
+                    Amamentação saudável
+                </h2>
+                <div className="flex mg1-auto wrappable aligned-center max-width justified-center gap2">
 
-                    <h2 className="subtitle">
-                        Amamentação saudável
-                    </h2>
 
 
-                    <div className="flex wrCardapioDobebeable justified-center aligned-center  gap1 depos">
+
+                    <div className="flex wrappable justified-center aligned-center  gap1 depos">
                         <p className='flex1'>Mamãe, a jornada da maternidade é repleta de amor e cuidados, e a <b>nutrição</b> do seu bebê desempenha um papel fundamental nesse caminho especial. A <b>amamentação</b> é um momento mágico de conexão, e complementá-la com uma <b>alimentação saudável</b> é o segredo para um começo de vida vibrante e cheio de energia.</p>
 
                         <img src={mockup3} alt="" className="flex1" />
@@ -128,13 +129,13 @@ export default function CardapioDobebe() {
 
 
             <div className='max-width mg1-auto pd2'>
-                <div className="flex mg1-auto wrCardapioDobebeable aligned-center max-width justified-center gap2">
+                <div className="flex mg1-auto wrappable aligned-center max-width justified-center gap2">
 
                     <h2 className="subtitle">
                         Veja alguns depoimentos de mamães como você:
                     </h2>
 
-                    <div className="flex wrCardapioDobebeable justified-center  gap1 depos">
+                    <div className="flex wrappable justified-center  gap1 depos">
                         <Image className='depo' src={depo1} alt="" />
                         <Image className='depo' src={depo2} alt="" />
                         <Image className='depo' src={depo3} alt="" />
@@ -148,14 +149,14 @@ export default function CardapioDobebe() {
             </div>
 
             <div className='max-width mg1-auto pd2'>
-                <div className="flex mg1-auto wrCardapioDobebeable aligned-center max-width justified-center gap2">
+                <div className="flex mg1-auto wrappable aligned-center max-width justified-center gap2">
 
                     <h2 className="subtitle">
                         Nosso compromisso é com a sua satisfação:
                     </h2>
 
 
-                    <div className="flex wrCardapioDobebeable justified-center aligned-center  gap1 depos">
+                    <div className="flex wrappable justified-center aligned-center  gap1 depos">
                         <p className='flex1'>Para isso damos uma garantia de <b>7 dias</b>. Dentro deste período se por qualquer motivo, não ficar satisfeita, basta falar com o suporte na plataforma.</p>
 
                         <img className='flex1 garantia' src={garantia} alt="" />
@@ -185,7 +186,7 @@ export default function CardapioDobebe() {
             </div>
 
             <footer>
-                <div className="flex wrCardapioDobebeable aligned-center justified-center gap2">
+                <div className="flex wrappable aligned-center justified-center gap2">
                     <p className="small-text">
                         suportecardapiodobebe@gmail.com
                     </p>
